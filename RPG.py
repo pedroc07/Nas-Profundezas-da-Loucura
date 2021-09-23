@@ -205,7 +205,7 @@ class Ladrão(Player):
         self.itens = [Traje1, Espada1, Bonus1]
 
     def correr(self, inimigo):
-        if (self.persi + self.inte)/2 > (inimigo.persi + inimigo.inte)/2
+        if (self.persi + self.inte)/2 > (inimigo.persi + inimigo.inte)/2:
             print(f"{self.nome} fugiu da batalha")
         else:
             print(f"{self.nome} falhou em fugir")
